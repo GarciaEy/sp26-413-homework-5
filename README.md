@@ -2,19 +2,19 @@
 
 ### CSV & PapaParse
 
-Explain what a CSV file is, how PapaParse reads it into JavaScript,
-and what dynamicTyping: true does to the field values.
-Should be more than 3 sentences.
+csv file is a text file that stores the data needed for dashboard.js to display the data. dynamicTyping converts values into proper types, like turning into actual numbers instead of strings.
 
 ### KPI Calculation
 
-Explain how .reduce() works in JavaScript and why it is the right
-tool for summing and averaging rows of data. Should be more than 3 sentences.
+.reduce() is a JavaScript method that loops through an array and combines all the values into one result using an accumulator. It’s useful for summing data because it lets you add everything in one pass without writing a manual loop. After getting the total, you can divide by the number of items to get the average.
 
 ### Chart Types
 
-Explain your choice of bar, doughnut, and line chart for these three
-data questions. Why is each type the right fit? Should be more than 3 sentences.
+Bar charts are best for comparing values between different categories because they make differences easy to see side by side. That’s why they work well when you want to compare totals across groups or items.
+
+Doughnut charts are useful for showing proportions of a whole, so they help display how each category contributes to a total. They make it easy to see percentages at a glance.
+
+Line charts are the best fit for showing trends over time because they connect data points in a way that highlights increases, decreases, and patterns. This makes them ideal for tracking changes across a sequence.
 
 ### Real-World Reflection
 

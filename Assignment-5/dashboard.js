@@ -55,6 +55,7 @@ let currentMetric = "sessions";
 // ============================================================
 
 Papa.parse("data.csv", {
+  download: true,
   header: true,
   dynamicTyping: true,
   skipEmptyLines: true,
